@@ -60,7 +60,7 @@ hold.addEventListener('click',function(){
 document.querySelector(`.score${activeplayer}`).textContent=Number(document.querySelector(`.score${activeplayer}`).textContent)+currentscore;
 currentscore=0;
 document.querySelector(`.currscore${activeplayer}`).textContent=0;
-if(Number(document.querySelector(`.score${activeplayer}`).textContent)>=10){  
+if(Number(document.querySelector(`.score${activeplayer}`).textContent)>=50){  
 
   //display winner
   winner.classList.toggle("whid")
