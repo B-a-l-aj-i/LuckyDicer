@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+ 
+}
+body{
+
+  background: linear-gradient(to top right,#FF97C1,#9A1663) fixed;
+}
+main{
+  border-radius: 10% ;
+  width:800px;
+  height:600px;
+  display: flex;
+   position: absolute;
+   align-items: center;
+   justify-content: center;
+   top:10%;
+   left: 29%;
+    z-index: 0;
+    border-radius: 10%;
+    
+}
+.player1{
+  color: white;
+  padding: 20%;
+  background:linear-gradient(to bottom,#FF5858,#E0144C);
+  
+}
+.player2{
+ 
+  color: white;
+  padding: 20%;
+  background:linear-gradient(to top left,#FF5858,#E0144C);
+}
+.playerActive  {
+  opacity: 0.5;
+}
+
+.currentscore{
+background-color:#FF5858;
+color: #000;
+font-weight: 900;
+font-size:20px;
+width: 150px;
+height: 60px;
+border-radius: 25%;
+text-align: center;
+position:relative;
+left: 50px;
+bottom:-100px
+}
+.buttons{
+  z-index: 1;
+  
+  position: relative;
+  display: flex;
+  height: 550px;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+  right: 80%;
+ 
+}
+
+
+.new{
+width: 150px;
+border-radius: 20px;
+background-color: aliceblue;
+cursor: pointer;
+font-size: 20px;
+box-shadow: 0px 8px 18px  #000000;
+border: none;
+}
+
+.dice{
+
+height: 75px;
+
+border-radius: 28px;
+}
+.dicebtn{
+width: 135px;
+height: 30px;
+border-radius: 30px;
+background-color: aliceblue;
+cursor: pointer;
+box-shadow: 0px 8px 18px  #000000;
+border: none;
+}
+.holdbtn{
+background-color: aliceblue;
+cursor: pointer;
+width: 100px;
+font-size: 20px;
+border-radius: 30px;
+box-shadow: 0px 8px 18px  #000000;
+border: none;
+}
+
+.holdbtn:active,
+.new:active,
+.dicebtn:active
+{
+  box-shadow: 4px 4px 4px #000000;
+}
+
+
+.close{
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top:-35%;
+  right:-71%;
+  border-radius: 20px;
+  background:linear-gradient(67deg,#ff0066,#d34297);
+}
+
+.winner{
+  width: 600px;
+  height: 150px;
+  font-weight: bolder;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:linear-gradient(67deg,#FF97C1,#eeadd3);
+  border-radius: 20px;
+  position:absolute;
+  top:41%;
+  left: 31%;
+  color: #230b11;
+  backdrop-filter: 8px;
+}
+.whid{
+  display: none;
+}
