@@ -1,5 +1,6 @@
 # LuckyDicer
 
-written only for desktop 🫠
-
-/*  just a 🤏small game inspired from a course  */✌️
+/* 
+just a 🤏small game
+dual player game where who gets first fifty poinits wins\
+*/✌️
